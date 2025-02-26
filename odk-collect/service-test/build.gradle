@@ -1,0 +1,13 @@
+dependencies {
+    // ...existing code...
+    implementation 'org.bouncycastle:bcprov-jdk18on:1.73'
+    
+    constraints {
+        implementation('org.bouncycastle:bcprov-jdk18on') {
+            version {
+                strictly '1.73'
+            }
+        }
+    }
+    // ...existing code...
+}

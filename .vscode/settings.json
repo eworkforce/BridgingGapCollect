@@ -1,0 +1,18 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "kotlin.compiler.jvm.target": "17",
+    "kotlin.languageServer.enabled": true,
+    "gradle.autoDetect": "on",
+    "gradle.nestedProjects": true,
+    "files.associations": {
+        "*.kts": "kotlin",
+        "*.gradle.kts": "kotlin",
+        "*.xml": "xml"
+    },
+    "terminal.integrated.env.linux": {
+        "ANDROID_HOME": "${env:HOME}/Android/Sdk",
+        "ANDROID_SDK_ROOT": "${env:HOME}/Android/Sdk",
+        "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
+    }
+}

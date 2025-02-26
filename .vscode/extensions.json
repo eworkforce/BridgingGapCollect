@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "fwcd.kotlin",
+        "vscjava.vscode-java-pack",
+        "redhat.java",
+        "vscjava.vscode-gradle",
+        "richardwillis.vscode-gradle-extension-pack",
+        "redhat.vscode-xml",
+        "ms-azuretools.vscode-docker",
+        "eamodio.gitlens",
+        "pkief.material-icon-theme",
+        "naco-siren.gradle-language"
+    ]
+}

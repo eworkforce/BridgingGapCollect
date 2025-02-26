@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Debug APK",
+            "type": "shell",
+            "command": "./gradlew assembleDebug",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Run Tests",
+            "type": "shell",
+            "command": "./gradlew test",
+            "group": "test"
+        },
+        {
+            "label": "Clean Project",
+            "type": "shell",
+            "command": "./gradlew clean"
+        },
+        {
+            "label": "Install APK",
+            "type": "shell",
+            "command": "adb install -r ./collect_app/build/outputs/apk/debug/collect_app-debug.apk"
+        }
+    ]
+}
